@@ -1,0 +1,16 @@
+{
+  "id": "coleclk",
+  "name": "Cole Clock",
+  "version": "0.01",
+  "description": "A simple clock using the bold Anton font. See `Anton Clock Plus` for an enhanced version",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot.png"}],
+  "type": "clock",
+  "tags": "clock",
+  "supports": ["BANGLEJS2"],
+  "allow_emulator": true,
+  "storage": [
+    {"name":"coleclk.app.js","url":"app.js"},
+    {"name":"coleclk.img","url":"app-icon.js","evaluate":true}
+  ]
+}
